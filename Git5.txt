@@ -1,0 +1,4 @@
+git status
+git show-branch
+git pull https://github.com/jdaniel28/GitDemo.git
+git push -u origin master

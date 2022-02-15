@@ -1,0 +1,23 @@
+git status
+git branch GitWork
+git checkout GitWork
+echo "This is the xml file in GitWork" >> hello.xml
+git add .
+git commit
+git checkout master
+echo "This is the xml file in master" >> hello.xml
+git add .
+git commit
+git log --oneline --graph --decorate --all
+git merge GitWork
+git mergetool
+git commit
+git status
+---In gitignore file---
+hello.xml
+--------Git Bash-------
+git add .
+git commit
+git show-branch
+git branch -d GitWork
+git log --oneline --graph --decorate

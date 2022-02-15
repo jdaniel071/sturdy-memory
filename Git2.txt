@@ -1,0 +1,15 @@
+echo >> .gitignore
+mkdir log
+cd log
+echo >> .log
+cd ..
+---- In gitignore file ----
+*.log
+log/
+
+
+-----Git Bash-----
+git check-ignore log/ .log welcome.txt
+git add .
+git commit
+git push -u origin master
